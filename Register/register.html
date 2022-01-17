@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>BookAhead</title>
+    <link href="registerStyle.css" rel="stylesheet"/>
+    <script type="text/javascript" src="register.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    </head>
+    <body>
+        <div class="lgContainer">
+            <div class="lgWrapper">
+              <div class="lgLeft">
+                <a href="/Home/index.html" style="text-decoration: none;" id>
+                <h3 class="lgNLogo">BookAhead</h3>
+                </a>
+                <span class="lgDesc">
+                  Book any event, venue, show in advance.
+                </span>
+              </div>
+              <div class="lgRight">
+                <form class="lgBox" action="/Login/login.html">
+                  <input placeholder="Username"
+                  class="lgInput"
+                    required
+                    id="username"
+                      />
+                     <input placeholder="Email" class="lgInput" type='email' required id="email"/>
+                     <input placeholder="Password" minLength="6" class="lgInput" type="password" required id="password"/>
+                     
+                     <div class="visibilityContainer">
+                       <input type="checkbox" id="show_pass" onclick="showPassword()">Show Password</input>
+                     </div>
+                  <button class="lgButton" >REGISTER</button> 
+                    
+                   </form>
+                   <div class="regContainer">
+                    <span class="lgNoAcct">
+                        Already have an account?
+                    </span>
+                    <a href="/Login/login.html"><button class="lgRegBtn">
+                        Log into your account
+                      </button>
+                      </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script type="text/javascript" src="register.js"></script>
+    </body>
+</html>

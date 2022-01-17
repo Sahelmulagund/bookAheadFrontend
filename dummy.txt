@@ -1,0 +1,31 @@
+  <div class="cardContainer">
+            <div class="venue">   
+
+                <!-- Venue card -->
+                <div class="img_card">
+                    <img src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-VHVlLCAzMCBOb3Ygb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50/et00146021-xlwlsskaxn-portrait.jpg" id="img_venue"/>
+                    <h3 id="venue_name">That Comedy Club</h3>
+                    <h4 id="venue_place">Bandra,Mumbai, Maharashtra</h4>
+                    <h5 id="venue_nearby">50km away</h5>
+                 </div>
+                   
+                     <div class="img_card">
+                        <img src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCA1IERlYw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00318035-vdhqzugdzy-portrait.jpg" id="img_venue"/>
+                        <h3 id="venue_name">SneakinOut Ft.Gully Gang</h3>
+                        <h4 id="venue_place">24 Kraft Brewzz,Pune,Maharashtra</h4>
+                        <h5 id="venue_nearby">33km far</h5>
+                     </div>
+                        <div class="img_card">
+                            <img src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCA1IERlYw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00317225-ngauufyjtr-portrait.jpg" id="img_venue"/>
+                            <h3 id="venue_name">Divine | Punya Paap Tour</h3>
+                            <h4 id="venue_place">Venue To Be Announced: Pune</h4>
+                            <h5 id="venue_nearby">30km far</h5>
+                         </div>
+                         
+                        
+                   
+        </div>
+    <div id="btnCard">
+        <img src="https://cdn-icons-png.flaticon.com/512/32/32213.png" id="img_more"/>
+    </div>
+</div>

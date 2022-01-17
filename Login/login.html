@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>BookAhead</title>
+    <link href="loginStyle.css" rel="stylesheet"/>
+    <script type="text/javascript" src="login.js"></script>
+    </head>
+    <body>
+        <div class="lgContainer">
+            <div class="lgWrapper">
+              <div class="lgLeft">
+                <a href="/Home/index.html" style="text-decoration: none;">
+                <h3 class="lgNLogo">BookAhead</h3>
+              </a>
+                <span class="lgDesc">
+                  Book any event, venue, show in advance.
+                </span>
+              </div>
+              <div class="lgRight">
+                <form class="lgBox" id="loginForm">
+                  <input placeholder="Email" id="email" class="lgInput" type='email' required/>
+                  <input placeholder="Password" id="password" minLength="6" class="lgInput"  type="password" required>
+                 
+                  <div class="visibilityContainer">
+                    <input type="checkbox" onclick="showPassword()" id="show_pass">Show Password
+                  </input>
+                  </div>
+               
+                   <button class="lgButton"  id="login" onclick="loginUser()"> LOGIN</button> 
+                  <span class="lgForgot">Forgot Password?</span>
+                 
+                 
+                </form>
+                <div class="regContainer">
+                    <span class="lgNoAcct">
+                        Don't have any account?
+                    </span>
+                    <a href="/Register/register.html"><button class="lgRegBtn">
+                        Create a New Account
+                      </button>
+                      </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script type="text/javascript" src="login.js"></script>
+    </body>
+</html>

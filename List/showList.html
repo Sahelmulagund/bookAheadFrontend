@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookAhead</title>
+        <link href="showListStyle.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+</head>
+     <body>
+
+          <!-- Topbar -->
+          <div class="topbarContainer">
+            <div class="topbarLeft">
+                <a href="/Home/index.html" style="text-decoration: none;">
+                
+                <span class="lg">BookAhead</span>
+            </a>
+            </div>
+            <div class="topbarCenter">
+                <div class="serachInput">
+                 <img id="searchIcon" src="search.png"/>
+                <input placeholder="Search any events, places, venues..." class="tc_search_field"/>
+ 
+             </div>
+             
+            </div>
+            <div class="topbarRight">
+               
+                <div class="topbarLinks" onclick="showLocation()">
+                    <span class="link" id="locate">location</span>
+                    <img id="drop_down" src="drop_down.png"/>
+                    <!-- <span class="link">Contact</span>   -->
+                </div>
+ 
+                <div class="btn-signup">
+                 <a href="/Login/login.html"><button class="btn">Sign in</button></a>
+                 <!-- <button class="btn">Sign up</button> -->
+             </div>
+            </div>
+        </div>
+        <div id="location_box" >
+            <div class="title_container">
+             <span id="city_title">Popular Cities</span>
+             <img src="https://img.icons8.com/fluency/24/000000/cancel.png" id="close_dialog"/>
+            </div>
+            
+            <div id="city_container">
+               
+            </div>
+     </div>
+
+          <!-- Carousel -->
+         <!-- Carousel -->
+
+         <div class="slideshow-container" >
+
+       
+        
+            <div id="card_carousel">
+    
+            </div>
+            
+            
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+        </br>
+        </br>
+    
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+    <!-- Header -->
+     <div class="headerContainer">
+         <h2 class="headerMain">Upcoming Shows & Movies</h2>
+         <h2 class="headerSide">Explore The Latest Releases <img src="down-arrow.png" id="icArr"/></h2>
+     </div>
+
+     <!-- Show List -->
+     <div class="grid-container" id="grid">
+        
+        
+      </div>
+     <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Shows</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Live Concerts</a></li>
+                            <li><a href="#">Venues</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>BookAhead</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">BookAhead © 2021</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="showList.js"></script>
+    
+
+    </body>
+
+    </html>

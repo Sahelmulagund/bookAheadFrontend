@@ -1,0 +1,129 @@
+*{
+    
+    margin: 0;
+}
+.lgContainer{
+   width: 100vw;
+ height: 100vh;
+ background-color: #f0f2f5;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.lgWrapper {
+ width: 70%;
+ height: 70%;
+ display: flex;
+}
+#linkLogo{
+   text-decoration: none;
+ }
+.lgLeft{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.lgRight {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background-color: white;
+ border-radius: 10px;
+}
+
+.lgNLogo {
+ font-size: 50px;
+ font-weight: 800;
+ color: #29af92;
+ margin-bottom: 10px;
+ 
+}
+
+.lgDesc {
+ font-size: 24px;
+}
+
+.lgBox{
+   height: 300px;
+   padding: 20px;
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.lgInput{
+   height: 50px;
+   border-radius: 10px;
+   border: 1px solid gray;
+   font-size: 18px;
+   padding-left: 20px;
+}
+
+.lgInput:focus{
+   outline: none;
+}
+
+.lgButton{
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   background-color: #1775ee;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   cursor: pointer;
+   width: 100%;
+}
+.lgButton:focus{
+ outline: none;
+}
+
+.lgButton:disabled{
+ cursor: not-allowed;
+}
+
+.lgForgot{
+   text-align: center;
+   color: #2c2d2e;
+   cursor: pointer;
+}
+
+.lgRegBtn{
+   width: 100%;
+   align-self: center;
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   background-color: #29af92;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.lgRegBtn:focus{
+ outline: none;
+}
+
+.lgRegBtn:disabled{
+ cursor: not-allowed;
+}
+
+.regContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+     
+}
+
+.lgNoAcct{
+   font-size: 18px;
+   padding: 16px;
+   
+}

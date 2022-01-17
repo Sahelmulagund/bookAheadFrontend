@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    background: rgb(240, 240, 240);
+}
+
+#go_back{
+    color: white;
+    padding: 15px;
+    height: 70px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer-dark {
+    
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+
+ 
+
+ /* Show Detail */
+ .mainContainer{
+     padding: 50;
+     display: flex;
+     height:90vh;
+     background-size: cover;
+     object-fit: cover;
+     background-repeat: no-repeat;
+    }
+ .container{
+     height: 90%;
+     display: flex;
+     align-items: center;
+     margin: auto;
+     justify-content: space-between;
+     width: 100%;
+
+
+ }
+ #img_detail{
+     height: 70%;
+     border-radius: 12px;
+     flex: 3;
+ }
+ .detailContainer{
+     display: flex;
+     flex-direction: column;
+      flex: 8;
+     color: white;
+     padding: 26px;
+     
+ }
+ #detailTitle{
+     font-size: 26px;
+     font-weight: 800;
+
+ }
+ #detailSubtitle{
+     font-size: 20px;
+ }
+
+ #imgRating{
+     height: 40px;
+    margin-right: 8px;
+ }
+ #ratingTxt{
+      
+    font-size: 20px;
+     display: flex;
+     align-items: center;
+     font-weight: 800;
+ }
+ .btnPreBook{
+     width: 30%;
+     padding: 12px;
+     background-color: rgb(31, 158, 158);
+     color: white;
+     border-radius: 16px;
+     margin-top: 80px;
+     border: none;
+     cursor: pointer;
+ }
+ .btnPreBook:hover{
+     color: black;
+ }
+
+
+ /* Ticket Dialog */
+
+ .ticket-dialog-container{
+ display: flex;
+ flex-direction: column;
+ }
+
+ .topbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 80px;
+   background-color: rgb(51, 51, 51);
+   padding: 16px;
+ }
+ .movie-name{
+   color: white;
+   font-size: 20px;
+   font-weight: 700;
+   
+ }
+ .ticket-date{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+ }
+ .date-picker{
+   margin-left: 10px;
+   padding: 8px;
+   border-radius: 8px;
+ }
+
+ .seatContainer{
+   height: 350px;
+   background-color: rgba(228, 241, 248, 0.87);
+   padding: 16px;
+   display: flex;
+   flex-direction: column;
+ }
+ .seat-text{
+   font-size: 20px;
+   font-weight: 600;
+ }
+ .rowContainer{
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .row1{
+   width: 50%;
+ 
+   margin: 8px;
+   background-color: rgb(101, 101, 101);
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto auto; 
+   grid-gap: 8px;
+ }
+ .row2{
+  width: 50%;
+ 
+   margin: 8px;
+   background-color: rgb(101, 101, 101);
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto auto; 
+   grid-gap: 8px;
+ }
+ .seat{
+   height: 24px;
+   width: 24px;
+   background-color: rgba(252, 252, 252, 0.836);
+   border: solid;
+   border-color: white;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding: 8px;
+   margin: 8px;
+   cursor: pointer;
+  
+ }
+ .seat2{
+  height: 24px;
+  width: 24px;
+  background-color: rgba(252, 252, 252, 0.836);
+  border: solid;
+  border-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 8px;
+  margin: 8px;
+  cursor: pointer;
+ 
+}
+ 
+ .active{
+   background-color: blueviolet;
+ }
+
+ .bottombar{
+   height: 80px;
+   width: 100%;
+   background-color: black;
+   border: solid;
+   border-color: rgb(240, 217, 90);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .user-name{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  flex: 4;
+  margin-left: 8px;
+ }
+ .seatCount{
+   font-size: 20px;
+   font-weight: 700;
+   color: white;
+   flex: 4;
+ }
+ .totalAmt{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  flex: 4;
+ }
+ .btnCheckout{
+   flex: 2;
+   color: white;
+   font-size: 20px;
+   background-color: rgb(247, 188, 62);
+   border-radius: 12px;
+   padding: 8px;
+   text-align: center;
+   margin-right: 12px;
+   cursor: pointer;
+ }
+ .btnCheckout:hover{
+   color: black;
+ }
